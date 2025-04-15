@@ -1,5 +1,6 @@
 provider "azurerm" {
 features {}
+subscription_id = "ece4380e-abf1-4393-b928-7183ca7d5480"
 }
 
 resource "azurerm_resource_group" "rg" {
@@ -8,7 +9,7 @@ location = "East US"
 }
 
 resource "azurerm_container_registry" "acr" {
-name                = "codecraftacr123"
+name                = "codecraftacr11561223"
 resource_group_name = azurerm_resource_group.rg.name
 location            = azurerm_resource_group.rg.location
 sku                 = "Basic"
