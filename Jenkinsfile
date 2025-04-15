@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    ACR_NAME = 'codecraftacr123'
+    ACR_NAME = 'codecraftacr11561223'
     IMAGE_NAME = 'codecraft-api'
     RESOURCE_GROUP = 'codecraft-rg'
     CLUSTER_NAME = 'codecraft-aks'
